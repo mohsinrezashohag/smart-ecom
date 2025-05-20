@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/server_component/partials/Footer";
+import Header from "@/components/server_component/partials/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,8 +21,56 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <title>Olle - Modern & Multipurpose eCommerce Template</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="assets/img/favicon.png"
+        />
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/animate.min.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="assets/css/mCustomScrollbar.min.css" />
+        <link rel="stylesheet" href="assets/css/odometer.css" />
+        <link rel="stylesheet" href="assets/css/flaticon.css" />
+        <link rel="stylesheet" href="assets/css/slick.css" />
+        <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+        <link rel="stylesheet" href="assets/css/default.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <button className="scroll-top scroll-to-target" data-target="html">
+          <i className="fas fa-angle-up"></i>
+        </button>
+        <main>
+          <Header></Header>
+          {children}
+          <Footer></Footer>
+        </main>
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.odometer.min.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
       </body>
     </html>
   );
