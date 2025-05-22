@@ -49,7 +49,7 @@ const BestSeller = () => {
                         <i class="flaticon-smartwatch"></i>
                       </div>
                       <div class="content">
-                        <p>smart watch</p>
+                        <p>smart watch RIYAN</p>
                       </div>
                     </button>
                   </li>
