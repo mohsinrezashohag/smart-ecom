@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/server_component/partials/Footer";
 import Header from "@/components/server_component/partials/Header";
 import NextTopLoader from "nextjs-toploader";
-import ScrollBtn from "@/components/client_component/ScrollBtn";
+import ScrollBtn from "@/components/buttons/ScrollBtn";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

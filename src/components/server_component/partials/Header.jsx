@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import CartBtn from '@/components/buttons/CartBtn';
 
 const Header = () => {
     return (
@@ -59,10 +60,7 @@ const Header = () => {
                      <Link href="#"><i className="fas fa-redo"></i>Compare</Link>
                     </li>
                     <li className="header-shop">
-                     <Link href="#"
-                        ><i className="fa-solid fa-cart-shopping"></i>Cart
-                        <span className="cart-count">0</span>
-                      </Link>
+                     <CartBtn></CartBtn>
                     </li>
                     <li className="header-sine-in">
                      <Link href="#">
