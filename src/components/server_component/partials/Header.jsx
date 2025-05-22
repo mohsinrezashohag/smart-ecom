@@ -59,14 +59,14 @@ const Header = () => {
                     </li>
                     <li className="header-shop">
                       <a href="#"
-                        ><i className="flaticon-shopping-bag"></i>Cart
+                        ><i className="fa-solid fa-cart-shopping"></i>Cart
                         
                         <span className="cart-count">0</span>
                       </a>
                     </li>
                     <li className="header-sine-in">
                       <a href="#">
-                        <i className="flaticon-user"></i>
+                        <i className="fa-solid fa-user"></i>
                         <p>Hello, Sign in : <span>My Account</span></p>
                       </a>
                     </li>
@@ -104,12 +104,12 @@ const Header = () => {
                       </li>
                       <li>
                         <a href="/shop"
-                          ><i className="flaticon-make-up"></i>Health and Beauty
+                          ><i className="fa-solid fa-list"></i>Health and Beauty
                         </a>
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-smartphone"></i>Smartphone &
+                          ><i className="fa-solid fa-list"></i>Smartphone &
                           Table</a
                         >
                         <ul className="megamenu">
@@ -187,7 +187,7 @@ const Header = () => {
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-rim"></i>Automotive & Motorcycle
+                          ><i className="fa-solid fa-list"></i>Automotive & Motorcycle
                         </a>
                         <ul className="megamenu">
                           <li className="sub-column-item">
@@ -264,7 +264,7 @@ const Header = () => {
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-sofa"></i>Furniture
+                          ><i className="fa-solid fa-list"></i>Furniture
                           <span>30%</span></a
                         >
                         <ul className="megamenu">
@@ -342,7 +342,7 @@ const Header = () => {
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-ball"></i>Sport & Outdoors</a
+                          ><i className="fa-solid fa-list"></i>Sport & Outdoors</a
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
@@ -419,7 +419,7 @@ const Header = () => {
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-plug"></i>Electronics</a
+                          ><i className="fa-solid fa-list"></i>Electronics</a
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
@@ -496,17 +496,17 @@ const Header = () => {
                       </li>
                       <li>
                         <a href="/shop"
-                          ><i className="flaticon-necklace"></i>Bags & shoe</a
+                          ><i className="fa-solid fa-list"></i>Bags & shoe</a
                         >
                       </li>
                       <li>
                         <a href="/shop"
-                          ><i className="flaticon-diamond"></i>Accessories</a
+                          ><i className="fa-solid fa-list"></i>Accessories</a
                         >
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-headphone"></i>entanglement</a
+                          ><i className="fa-solid fa-list"></i>entanglement</a
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
@@ -583,7 +583,7 @@ const Header = () => {
                       </li>
                       <li className="menu-item-has-children">
                         <a href="/shop"
-                          ><i className="flaticon-agronomy"></i>Outdoor and
+                          ><i className="fa-solid fa-list"></i>Outdoor and
                           Nature</a
                         >
                         <ul className="megamenu">
@@ -663,13 +663,13 @@ const Header = () => {
                         <ul className="more_slide_open">
                           <li>
                             <a href="/shop"
-                              ><i className="flaticon-make-up"></i>Health
+                              ><i className="fa-solid fa-list"></i>Health
                               Product<span>-20%</span></a
                             >
                           </li>
                           <li className="menu-item-has-children">
                             <a href="/shop"
-                              ><i className="flaticon-smartwatch"></i>Western
+                              ><i className="fa-solid fa-list"></i>Western
                               woman</a
                             >
                             <ul className="megamenu">
@@ -759,7 +759,7 @@ const Header = () => {
                           </li>
                           <li>
                             <a href="/shop"
-                              ><i className="flaticon-lamp"></i>Industrial
+                              ><i className="fa-solid fa-list"></i>Industrial
                               Product</a
                             >
                           </li>
