@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
     return (
@@ -8,15 +9,15 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="header-top-left">
-                <a href="#">Welcome! Free Shipping on orders over US$29.99</a>
+               <Link href="#">Welcome! Free Shipping on orders over US$29.99</Link>
               </div>
             </div>
             <div className="col-md-6">
               <div className="header-top-right">
                 <ul>
-                  <li><a href="become-vendor.html">Become a Vendor</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><Link href="/became-vendor">Become a Vendor</Link></li>
+                  <li><Link href="/blogs">Blog</Link></li>
+                  <li><Link href="/contact-us">Contact Us</Link></li>
                 </ul>
               </div>
             </div>
@@ -28,9 +29,9 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-xl-2 col-lg-3">
               <div className="logo">
-                <a href=""
-                  ><img src="assets/img/logo/logo.png" alt=""
-                /></a>
+                <Link href="/"
+                  ><img src="/assets/img/logo/logo.png" alt=""
+                /></Link>
               </div>
             </div>
             <div className="col-xl-10 col-lg-9">
@@ -52,23 +53,22 @@ const Header = () => {
                 <div className="header-action">
                   <ul>
                     <li>
-                      <a href="#"><i className="far fa-star"></i>Wishlist</a>
+                     <Link href="#"><i className="far fa-star"></i>Wishlist</Link>
                     </li>
                     <li>
-                      <a href="#"><i className="fas fa-redo"></i>Compare</a>
+                     <Link href="#"><i className="fas fa-redo"></i>Compare</Link>
                     </li>
                     <li className="header-shop">
-                      <a href="#"
+                     <Link href="#"
                         ><i className="fa-solid fa-cart-shopping"></i>Cart
-                        
                         <span className="cart-count">0</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="header-sine-in">
-                      <a href="#">
+                     <Link href="#">
                         <i className="fa-solid fa-user"></i>
                         <p>Hello, Sign in : <span>My Account</span></p>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -85,575 +85,575 @@ const Header = () => {
               <div className="menu-wrap">
                 <nav className="menu-nav">
                   <div className="logo d-none">
-                    <a href="index-2.html"
-                      ><img src="assets/img/logo/w_logo.png" alt=""
-                    /></a>
+                    <Link href="/"
+                      ><img src="/assets/img/logo/w_logo.png" alt=""
+                    /></Link>
                   </div>
                   <div className="header-category">
-                    <a href="#" className="cat-toggle">
+                   <Link href="#" className="cat-toggle">
                       <i className="fas fa-bars"></i>
-                      Browse Categories
+                      Browse Categories RIYAN
                       <i className="fas fa-angle-down"></i>
-                    </a>
+                    </Link>
                     <ul className="category-menu">
                       <li className="add-megamenu">
-                        <a href="#"
+                       <Link href="#"
                           ><i className="fa-solid fa-gear"></i>How to add
-                          MegaMenu</a
+                          MegaMenu</Link
                         >
                       </li>
                       <li>
-                        <a href="/shop"
+                       <Link href="/shop"
                           ><i className="fa-solid fa-list"></i>Health and Beauty
-                        </a>
+                        </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
+                       <Link href="/shop"
                           ><i className="fa-solid fa-list"></i>Smartphone &
-                          Table</a
+                          Table</Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
+                       <Link href="/shop"
                           ><i className="fa-solid fa-list"></i>Automotive & Motorcycle
-                        </a>
+                        </Link>
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
+                       <Link href="/shop"
                           ><i className="fa-solid fa-list"></i>Furniture
-                          <span>30%</span></a
+                          <span>30%</span></Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
-                          ><i className="fa-solid fa-list"></i>Sport & Outdoors</a
+                       <Link href="/shop"
+                          ><i className="fa-solid fa-list"></i>Sport & Outdoors</Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
-                          ><i className="fa-solid fa-list"></i>Electronics</a
+                       <Link href="/shop"
+                          ><i className="fa-solid fa-list"></i>Electronics</Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/shop"
-                          ><i className="fa-solid fa-list"></i>Bags & shoe</a
+                       <Link href="/shop"
+                          ><i className="fa-solid fa-list"></i>Bags & shoe</Link
                         >
                       </li>
                       <li>
-                        <a href="/shop"
-                          ><i className="fa-solid fa-list"></i>Accessories</a
+                       <Link href="/shop"
+                          ><i className="fa-solid fa-list"></i>Accessories</Link
                         >
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
-                          ><i className="fa-solid fa-list"></i>entanglement</a
+                       <Link href="/shop"
+                          ><i className="fa-solid fa-list"></i>entanglement</Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/shop"
+                       <Link href="/shop"
                           ><i className="fa-solid fa-list"></i>Outdoor and
-                          Nature</a
+                          Nature</Link
                         >
                         <ul className="megamenu">
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Batteries</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Batteries</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Smart Electronics</a>
+                           <Link href="/shop">Smart Electronics</Link>
                             <ul>
-                              <li><a href="/shop">Cables & Adapters</a></li>
-                              <li><a href="/shop">Chargers</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
-                              <li><a href="/shop">Light Bulbs</a></li>
-                              <li><a href="/shop">Watch Fashion</a></li>
+                              <li><Link href="/shop">Cables & Adapters</Link></li>
+                              <li><Link href="/shop">Chargers</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
+                              <li><Link href="/shop">Light Bulbs</Link></li>
+                              <li><Link href="/shop">Watch Fashion</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Accessories & Parts</a>
+                           <Link href="/shop">Accessories & Parts</Link>
                             <ul>
-                              <li><a href="/shop">Projectors</a></li>
+                              <li><Link href="/shop">Projectors</Link></li>
                               <li>
-                                <a href="/shop">Audio Amplifier Boards</a>
+                               <Link href="/shop">Audio Amplifier Boards</Link>
                               </li>
-                              <li><a href="/shop">Smart Electronics</a></li>
-                              <li><a href="/shop">Bags & Cases</a></li>
+                              <li><Link href="/shop">Smart Electronics</Link></li>
+                              <li><Link href="/shop">Bags & Cases</Link></li>
                               <li>
-                                <a href="/shop">Tees, Knits & Pools</a>
+                               <Link href="/shop">Tees, Knits & Pools</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Electronic Cigarettes</a>
+                           <Link href="/shop">Electronic Cigarettes</Link>
                             <ul>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">Projectors</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">Projectors</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Portable Audio & Video</a>
+                           <Link href="/shop">Portable Audio & Video</Link>
                             <ul>
                               <li>
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                               </li>
-                              <li><a href="/shop">Audio & Video</a></li>
-                              <li><a href="/shop">Televisions</a></li>
-                              <li><a href="/shop">TV Receivers</a></li>
-                              <li><a href="/shop">TV Sticks</a></li>
+                              <li><Link href="/shop">Audio & Video</Link></li>
+                              <li><Link href="/shop">Televisions</Link></li>
+                              <li><Link href="/shop">TV Receivers</Link></li>
+                              <li><Link href="/shop">TV Sticks</Link></li>
                             </ul>
                           </li>
                           <li className="sub-column-item">
-                            <a href="/shop">Audio & Video</a>
+                           <Link href="/shop">Audio & Video</Link>
                             <ul>
                               <li className="mega-menu-banner">
-                                <a href="/shop"
+                               <Link href="/shop"
                                   ><img
-                                    src="assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/img/images/megamenu_banner.jpg"
                                     alt=""
-                                /></a>
+                                /></Link>
                               </li>
                             </ul>
                           </li>
@@ -662,105 +662,105 @@ const Header = () => {
                       <li>
                         <ul className="more_slide_open">
                           <li>
-                            <a href="/shop"
+                           <Link href="/shop"
                               ><i className="fa-solid fa-list"></i>Health
-                              Product<span>-20%</span></a
+                              Product<span>-20%</span></Link
                             >
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="/shop"
+                           <Link href="/shop"
                               ><i className="fa-solid fa-list"></i>Western
-                              woman</a
+                              woman</Link
                             >
                             <ul className="megamenu">
                               <li className="sub-column-item">
-                                <a href="/shop">Accessories & Parts</a>
+                               <Link href="/shop">Accessories & Parts</Link>
                                 <ul>
                                   <li>
-                                    <a href="/shop">Cables & Adapters</a>
+                                   <Link href="/shop">Cables & Adapters</Link>
                                   </li>
-                                  <li><a href="/shop">Batteries</a></li>
-                                  <li><a href="/shop">Chargers</a></li>
-                                  <li><a href="/shop">Bags & Cases</a></li>
+                                  <li><Link href="/shop">Batteries</Link></li>
+                                  <li><Link href="/shop">Chargers</Link></li>
+                                  <li><Link href="/shop">Bags & Cases</Link></li>
                                   <li>
-                                    <a href="/shop"
-                                      >Electronic Cigarettes</a
+                                   <Link href="/shop"
+                                      >Electronic Cigarettes</Link
                                     >
                                   </li>
                                 </ul>
                               </li>
                               <li className="sub-column-item">
-                                <a href="/shop">Smart Electronics</a>
+                               <Link href="/shop">Smart Electronics</Link>
                                 <ul>
                                   <li>
-                                    <a href="/shop">Cables & Adapters</a>
+                                   <Link href="/shop">Cables & Adapters</Link>
                                   </li>
-                                  <li><a href="/shop">Chargers</a></li>
-                                  <li><a href="/shop">Bags & Cases</a></li>
-                                  <li><a href="/shop">Light Bulbs</a></li>
-                                  <li><a href="/shop">Watch Fashion</a></li>
+                                  <li><Link href="/shop">Chargers</Link></li>
+                                  <li><Link href="/shop">Bags & Cases</Link></li>
+                                  <li><Link href="/shop">Light Bulbs</Link></li>
+                                  <li><Link href="/shop">Watch Fashion</Link></li>
                                 </ul>
                               </li>
                               <li className="sub-column-item">
-                                <a href="/shop">Accessories & Parts</a>
+                               <Link href="/shop">Accessories & Parts</Link>
                                 <ul>
-                                  <li><a href="/shop">Projectors</a></li>
+                                  <li><Link href="/shop">Projectors</Link></li>
                                   <li>
-                                    <a href="/shop"
-                                      >Audio Amplifier Boards</a
+                                   <Link href="/shop"
+                                      >Audio Amplifier Boards</Link
                                     >
                                   </li>
                                   <li>
-                                    <a href="/shop">Smart Electronics</a>
+                                   <Link href="/shop">Smart Electronics</Link>
                                   </li>
-                                  <li><a href="/shop">Bags & Cases</a></li>
+                                  <li><Link href="/shop">Bags & Cases</Link></li>
                                   <li>
-                                    <a href="/shop">Tees, Knits & Pools</a>
+                                   <Link href="/shop">Tees, Knits & Pools</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="sub-column-item">
-                                <a href="/shop">Electronic Cigarettes</a>
+                               <Link href="/shop">Electronic Cigarettes</Link>
                                 <ul>
-                                  <li><a href="/shop">Audio & Video</a></li>
-                                  <li><a href="/shop">Televisions</a></li>
-                                  <li><a href="/shop">TV Receivers</a></li>
-                                  <li><a href="/shop">Projectors</a></li>
-                                  <li><a href="/shop">TV Sticks</a></li>
+                                  <li><Link href="/shop">Audio & Video</Link></li>
+                                  <li><Link href="/shop">Televisions</Link></li>
+                                  <li><Link href="/shop">TV Receivers</Link></li>
+                                  <li><Link href="/shop">Projectors</Link></li>
+                                  <li><Link href="/shop">TV Sticks</Link></li>
                                 </ul>
                               </li>
                               <li className="sub-column-item">
-                                <a href="/shop">Portable Audio & Video</a>
+                               <Link href="/shop">Portable Audio & Video</Link>
                                 <ul>
                                   <li>
-                                    <a href="/shop"
-                                      >Portable Audio & Video</a
+                                   <Link href="/shop"
+                                      >Portable Audio & Video</Link
                                     >
                                   </li>
-                                  <li><a href="/shop">Audio & Video</a></li>
-                                  <li><a href="/shop">Televisions</a></li>
-                                  <li><a href="/shop">TV Receivers</a></li>
-                                  <li><a href="/shop">TV Sticks</a></li>
+                                  <li><Link href="/shop">Audio & Video</Link></li>
+                                  <li><Link href="/shop">Televisions</Link></li>
+                                  <li><Link href="/shop">TV Receivers</Link></li>
+                                  <li><Link href="/shop">TV Sticks</Link></li>
                                 </ul>
                               </li>
                               <li className="sub-column-item">
-                                <a href="/shop">Audio & Video</a>
+                               <Link href="/shop">Audio & Video</Link>
                                 <ul>
                                   <li className="mega-menu-banner">
-                                    <a href="/shop"
+                                   <Link href="/shop"
                                       ><img
-                                        src="assets/img/images/megamenu_banner.jpg"
+                                        src="/assets/img/images/megamenu_banner.jpg"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </li>
                                 </ul>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a href="/shop"
+                           <Link href="/shop"
                               ><i className="fa-solid fa-list"></i>Industrial
-                              Product</a
+                              Product</Link
                             >
                           </li>
                         </ul>
@@ -774,48 +774,48 @@ const Header = () => {
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
                     <ul className="navigation">
                       <li className="active menu-item">
-                        <a href="/">Home</a>
+                       <Link href="/">Home</Link>
                       </li>
                       <li className="menu-item">
-                        <a href="/shop">SHOP</a>
+                       <Link href="/shop">SHOP</Link>
                       </li>
-                      <li><a href="promotion.html">PROMOTION</a></li>
+                      <li><Link href="/promotion">PROMOTION</Link></li>
                       <li className="menu-item-has-children">
-                        <a href="#">BLOG</a>
+                       <Link href="#">BLOG</Link>
                         <ul className="submenu">
-                          <li><a href="blog.html">Our blog</a></li>
-                          <li><a href="blog-details.html">blog Details</a></li>
+                          <li><Link href="/blogs">Our blog</Link></li>
+                          <li><Link href="/blog/hello-blog">blog Details</Link></li>
                         </ul>
                       </li>
-                      <li><a href="#">SPECIAL</a></li>
+                      <li><Link href="#">SPECIAL</Link></li>
                       <li className="menu-item-has-children">
-                        <a href="#">PAGES</a>
+                       <Link href="#">PAGES</Link>
                         <ul className="submenu">
                           <li>
-                            <a href="become-vendor.html">become a vendor</a>
+                           <Link href="/became-vendor">become a vendor</Link>
                           </li>
                           <li>
-                            <a href="vendor-profile.html">vendor Profile</a>
+                           <Link href="/vendor/profile">vendor Profile</Link>
                           </li>
                           <li>
-                            <a href="vendor-setting.html">vendor setting</a>
+                           <Link href="/vendor/profile/setting">vendor setting</Link>
                           </li>
-                          <li><a href="coupon.html">coupon list</a></li>
-                          <li><a href="contact.html">contact</a></li>
+                          <li><Link href="coupon.html">coupon list</Link></li>
+                          <li><Link href="/contact-us">contact</Link></li>
                         </ul>
                       </li>
-                      <li><a href="vendor-list.html">vendor Store List</a></li>
+                      <li><Link href="vendor-list.html">vendor Store List</Link></li>
                     </ul>
                   </div>
                   <div className="header-action d-none d-md-block">
                     <ul>
                       <li className="header-btn">
-                        <a href="#"
+                       <Link href="#"
                           >Super Discount
                           <img
-                            src="assets/img/images/discount_shape.png"
+                            src="/assets/img/images/discount_shape.png"
                             alt=""
-                        /></a>
+                        /></Link>
                       </li>
                     </ul>
                   </div>
@@ -825,28 +825,28 @@ const Header = () => {
                 <nav className="menu-box">
                   <div className="close-btn"><i className="fa-solid fa-xmark"></i></div>
                   <div className="nav-logo">
-                    <a href="index-2.html"
-                      ><img src="assets/img/logo/logo.png" alt="" title=""
-                    /></a>
+                    <Link href="/"
+                      ><img src="/assets/img/logo/logo.png" alt="" title=""
+                    /></Link>
                   </div>
                   <div className="menu-outer">
                   </div>
                   <div className="social-links">
                     <ul className="clearfix">
                       <li>
-                        <a href="#"><span className="fab fa-twitter"></span></a>
+                       <Link href="#"><span className="fab fa-twitter"></span></Link>
                       </li>
                       <li>
-                        <a href="#"><span className="fab fa-facebook-f"></span></a>
+                       <Link href="#"><span className="fab fa-facebook-f"></span></Link>
                       </li>
                       <li>
-                        <a href="#"><span className="fab fa-pinterest-p"></span></a>
+                       <Link href="#"><span className="fab fa-pinterest-p"></span></Link>
                       </li>
                       <li>
-                        <a href="#"><span className="fab fa-instagram"></span></a>
+                       <Link href="#"><span className="fab fa-instagram"></span></Link>
                       </li>
                       <li>
-                        <a href="#"><span className="fab fa-youtube"></span></a>
+                       <Link href="#"><span className="fab fa-youtube"></span></Link>
                       </li>
                     </ul>
                   </div>

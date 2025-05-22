@@ -14,7 +14,7 @@ const Footer = () => {
                                     <div className="f-logo mb-25">
                                         <Link href="/">
                                             <img
-                                                src="/assets/img/logo/logo.png" 
+                                                src="//assets/img/logo/logo.png" 
                                                 alt="Logo"
                                             />
                                         </Link>
@@ -93,13 +93,13 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-lg-6 col-md-7">
                                 <div className="copyright-text">
-                                    <p>Copyright ©2022 Olle All Rights Reserved</p>
+                                    <p>Copyright ©2025 - IGL Web  All Rights Reserved</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-5">
                                 <div className="cart-img text-end">
                                     <img
-                                        src="/assets/img/images/cart_img.jpg" 
+                                        src="//assets/img/images/cart_img.jpg" 
                                         alt="Payment methods"
                                     />
                                 </div>

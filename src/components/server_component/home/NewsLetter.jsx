@@ -2,13 +2,13 @@ import React from 'react';
 
 const NewsLetter = () => {
     return (
-         <section class="newsletter-area pb-90">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="newsletter-wrap">
-                <div class="newsletter-content">
-                  <h2 class="title">
+         <section className="newsletter-area pb-90">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="newsletter-wrap">
+                <div className="newsletter-content">
+                  <h2 className="title">
                     Sign Up for Weekly <span>Newsletter</span>
                   </h2>
                   <p>
@@ -16,7 +16,7 @@ const NewsLetter = () => {
                     demonstraverunt
                   </p>
                 </div>
-                <div class="newsletter-form">
+                <div className="newsletter-form">
                   <form action="#">
                     <input type="text" placeholder="Your email here..." />
                     <button type="submit">Subscribe</button>

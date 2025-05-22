@@ -1,37 +1,38 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Features = () => {
     return (
-  <section class="features-area pt-90">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10">
-              <div class="features-item mb-30">
-                <div class="features-thumb">
-                  <img src="assets/img/features/features_img01.jpg" alt="" />
+  <section className="features-area pt-90">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 col-md-10">
+              <div className="features-item mb-30">
+                <div className="features-thumb">
+                  <img src="/assets/img/features/features_img01.jpg" alt="" />
                 </div>
-                <div class="features-content">
+                <div className="features-content">
                   <span>35% discount</span>
-                  <h2 class="title">
-                    <a href="shop.html">Smart home mixer</a>
+                  <h2 className="title">
+                   <Link href="shop.html">Smart home mixer</Link>
                   </h2>
                   <p>Giving information on origins random Lipsum generator.</p>
-                  <a href="shop.html" class="btn">shop now</a>
+                 <Link href="shop.html" className="btn">shop now</Link>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-10">
-              <div class="features-item mb-30">
-                <div class="features-thumb">
-                  <img src="assets/img/features/features_img02.jpg" alt="" />
+            <div className="col-lg-6 col-md-10">
+              <div className="features-item mb-30">
+                <div className="features-thumb">
+                  <img src="/assets/img/features/features_img02.jpg" alt="" />
                 </div>
-                <div class="features-content white-content">
+                <div className="features-content white-content">
                   <span>35% discount</span>
-                  <h2 class="title">
-                    <a href="shop.html">Smart home mixer</a>
+                  <h2 className="title">
+                   <Link href="shop.html">Smart home mixer</Link>
                   </h2>
                   <p>Giving information on origins random Lipsum generator.</p>
-                  <a href="shop.html" class="btn">shop now</a>
+                 <Link href="shop.html" className="btn">shop now</Link>
                 </div>
               </div>
             </div>

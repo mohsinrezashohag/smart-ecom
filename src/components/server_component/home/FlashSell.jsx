@@ -1,116 +1,117 @@
 import React from 'react';
+import Link from 'next/link';
 
 const FlashSell = () => {
     return (
         <>
         
-      <section class="flash-product-area pt-90 pb-60">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-8 col-sm-10">
-              <div class="slider-add-banner banner-active mb-45">
+      <section className="flash-product-area pt-90 pb-60">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-8 col-sm-10">
+              <div className="slider-add-banner banner-active mb-45">
                
-                <div class="add-banner">
-                  <div class="add-banner-img">
-                    <a href="shop.html"
+                <div className="add-banner">
+                  <div className="add-banner-img">
+                   <Link href="shop.html"
                       ><img
-                        src="assets/img/images/add_banner_slider01.jpg"
+                        src="/assets/img/images/add_banner_slider01.jpg"
                         alt=""
-                    /></a>
+                    /></Link>
                   </div>
-                  <div class="add-banner-content">
+                  <div className="add-banner-content">
                     <span>35% discount</span>
-                    <h2 class="title">Smart Phone</h2>
+                    <h2 className="title">Smart Phone</h2>
                     <p>Reference site about</p>
-                    <a href="shop.html" class="btn">shop now</a>
+                   <Link href="shop.html" className="btn">shop now</Link>
                   </div>
                 </div>
                 </div>
-              <div class="trending-product">
-                <h3 class="title">Trending Products</h3>
+              <div className="trending-product">
+                <h3 className="title">Trending Products</h3>
                 <ul>
-                  <li class="trending-product-item mb-30">
-                    <div class="thumb">
-                      <a href="shop-details.html"
+                  <li className="trending-product-item mb-30">
+                    <div className="thumb">
+                     <Link href="/pro/hello-product"
                         ><img
-                          src="assets/img/product/trending_product01.png"
+                          src="/assets/img/product/trending_product01.png"
                           alt=""
-                      /></a>
+                      /></Link>
                     </div>
-                    <div class="content">
-                      <h6 class="title">
-                        <a href="shop-details.html">Morales Ultimate Launch</a>
+                    <div className="content">
+                      <h6 className="title">
+                       <Link href="/pro/hello-product">Morales Ultimate Launch</Link>
                       </h6>
-                      <h4 class="price">$09.08 <del>$29.08</del></h4>
-                      <div class="content-bottom">
+                      <h4 className="price">$09.08 <del>$29.08</del></h4>
+                      <div className="content-bottom">
                         <ul>
                           <li>1k+ Orders ~</li>
-                          <li><i class="fa-solid fa-star"></i>4.7</li>
+                          <li><i className="fa-solid fa-star"></i>4.7</li>
                         </ul>
                       </div>
                     </div>
                   </li>
-                  <li class="trending-product-item mb-30">
-                    <div class="thumb">
-                      <a href="shop-details.html"
+                  <li className="trending-product-item mb-30">
+                    <div className="thumb">
+                     <Link href="/pro/hello-product"
                         ><img
-                          src="assets/img/product/trending_product02.png"
+                          src="/assets/img/product/trending_product02.png"
                           alt=""
-                      /></a>
+                      /></Link>
                     </div>
-                    <div class="content">
-                      <h6 class="title">
-                        <a href="shop-details.html"
-                          >Lixada Fishing Breathable</a
+                    <div className="content">
+                      <h6 className="title">
+                       <Link href="/pro/hello-product"
+                          >Lixada Fishing Breathable</Link
                         >
                       </h6>
-                      <h4 class="price">$14.08 <span>-35%</span></h4>
-                      <div class="content-bottom">
+                      <h4 className="price">$14.08 <span>-35%</span></h4>
+                      <div className="content-bottom">
                         <ul>
                           <li>1.5k+ Orders ~</li>
-                          <li><i class="fa-solid fa-star"></i>4.8</li>
+                          <li><i className="fa-solid fa-star"></i>4.8</li>
                         </ul>
                       </div>
                     </div>
                   </li>
-                  <li class="trending-product-item mb-30">
-                    <div class="thumb">
-                      <a href="shop-details.html"
+                  <li className="trending-product-item mb-30">
+                    <div className="thumb">
+                     <Link href="/pro/hello-product"
                         ><img
-                          src="assets/img/product/trending_product03.png"
+                          src="/assets/img/product/trending_product03.png"
                           alt=""
-                      /></a>
+                      /></Link>
                     </div>
-                    <div class="content">
-                      <h6 class="title">
-                        <a href="shop-details.html">Morales Ultimate Launch</a>
+                    <div className="content">
+                      <h6 className="title">
+                       <Link href="/pro/hello-product">Morales Ultimate Launch</Link>
                       </h6>
-                      <h4 class="price">$18.08 <span>-25%</span></h4>
-                      <div class="content-bottom">
+                      <h4 className="price">$18.08 <span>-25%</span></h4>
+                      <div className="content-bottom">
                         <ul>
                           <li>2k+ Orders ~</li>
-                          <li><i class="fa-solid fa-star"></i>4.5</li>
+                          <li><i className="fa-solid fa-star"></i>4.5</li>
                         </ul>
                       </div>
                     </div>
                   </li>
-                  <li class="trending-product-item mb-30">
-                    <div class="thumb">
-                      <a href="shop-details.html"
+                  <li className="trending-product-item mb-30">
+                    <div className="thumb">
+                     <Link href="/pro/hello-product"
                         ><img
-                          src="assets/img/product/trending_product04.png"
+                          src="/assets/img/product/trending_product04.png"
                           alt=""
-                      /></a>
+                      /></Link>
                     </div>
-                    <div class="content">
-                      <h6 class="title">
-                        <a href="shop-details.html">Winter Gloves Mens</a>
+                    <div className="content">
+                      <h6 className="title">
+                       <Link href="/pro/hello-product">Winter Gloves Mens</Link>
                       </h6>
-                      <h4 class="price">$19.08 <span>-20%</span></h4>
-                      <div class="content-bottom">
+                      <h4 className="price">$19.08 <span>-20%</span></h4>
+                      <div className="content-bottom">
                         <ul>
                           <li>3k+ Orders ~</li>
-                          <li><i class="fa-solid fa-star"></i>4.9</li>
+                          <li><i className="fa-solid fa-star"></i>4.9</li>
                         </ul>
                       </div>
                     </div>
@@ -118,231 +119,231 @@ const FlashSell = () => {
                 </ul>
               </div>
             </div>
-            <div class="col-xl-9 col-lg-8 col-md-12">
-              <div class="add-banner-thumb mb-55">
-                <a href="#"
-                  ><img src="assets/img/images/add_banner_img02.jpg" alt=""
-                /></a>
+            <div className="col-xl-9 col-lg-8 col-md-12">
+              <div className="add-banner-thumb mb-55">
+               <Link href="#"
+                  ><img src="/assets/img/images/add_banner_img02.jpg" alt=""
+                /></Link>
               </div>
-              <div class="row">
-                <div class="col-lg-6 col-md-6">
-                  <div class="section-title title-style-two mb-30">
-                    <h4 class="title">Flash Sale Today!</h4>
+              <div className="row">
+                <div className="col-lg-6 col-md-6">
+                  <div className="section-title title-style-two mb-30">
+                    <h4 className="title">Flash Sale Today!</h4>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                  <div class="product-menu-nav">
-                    <button class="active" data-filter="*">Flash</button>
-                    <button class="" data-filter=".cat-one">Popular</button>
-                    <button class="" data-filter=".cat-two">Top Rate</button>
+                <div className="col-lg-6 col-md-6">
+                  <div className="product-menu-nav">
+                    <button className="active" data-filter="*">Flash</button>
+                    <button className="" data-filter=".cat-one">Popular</button>
+                    <button className="" data-filter=".cat-two">Top Rate</button>
                   </div>
                 </div>
               </div>
-              <div class="flash-product-item-wrap">
-                <div class="row flash-isotope-active">
+              <div className="flash-product-item-wrap">
+                <div className="row flash-isotope-active">
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product01.jpg"
+                            src="/assets/img/product/flash_product01.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html"
-                            >Morales Ultimate Launch</a
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product"
+                            >Morales Ultimate Launch</Link
                           >
                         </h6>
-                        <h4 class="price">$29.08 <span>-35%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$29.08 <span>-35%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>1k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.9</li>
+                            <li><i className="fa-solid fa-star"></i>4.9</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two cat-one"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two cat-one"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product02.jpg"
+                            src="/assets/img/product/flash_product02.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html"
-                            >Lixada Fishing Breathable</a
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product"
+                            >Lixada Fishing Breathable</Link
                           >
                         </h6>
-                        <h4 class="price">$25.08 <span>-34%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$25.08 <span>-34%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>1.5k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.2</li>
+                            <li><i className="fa-solid fa-star"></i>4.2</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product03.jpg"
+                            src="/assets/img/product/flash_product03.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html">Winter Gloves Mens</a>
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product">Winter Gloves Mens</Link>
                         </h6>
-                        <h4 class="price">$29.08 <span>-20%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$29.08 <span>-20%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>2k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.8</li>
+                            <li><i className="fa-solid fa-star"></i>4.8</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one cat-two"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one cat-two"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product04.jpg"
+                            src="/assets/img/product/flash_product04.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html">Fashion High scalding</a>
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product">Fashion High scalding</Link>
                         </h6>
-                        <h4 class="price">$28.08 <span>-40%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$28.08 <span>-40%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>2.5k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.7</li>
+                            <li><i className="fa-solid fa-star"></i>4.7</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two cat-one"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two cat-one"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product05.jpg"
+                            src="/assets/img/product/flash_product05.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html"
-                            >Morales Ultimate Launch</a
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product"
+                            >Morales Ultimate Launch</Link
                           >
                         </h6>
-                        <h4 class="price">$29.08 <span>-35%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$29.08 <span>-35%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>1.5k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.4</li>
+                            <li><i className="fa-solid fa-star"></i>4.4</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product06.jpg"
+                            src="/assets/img/product/flash_product06.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html"
-                            >Lixada Fishing Breathable</a
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product"
+                            >Lixada Fishing Breathable</Link
                           >
                         </h6>
-                        <h4 class="price">$27.08 <span>-50%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$27.08 <span>-50%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>1.5k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.3</li>
+                            <li><i className="fa-solid fa-star"></i>4.3</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-one"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product07.jpg"
+                            src="/assets/img/product/flash_product07.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html">Elastic Summer Newborn</a>
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product">Elastic Summer Newborn</Link>
                         </h6>
-                        <h4 class="price">$9.08 <span>-30%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$9.08 <span>-30%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>5.5k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.5</li>
+                            <li><i className="fa-solid fa-star"></i>4.5</li>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div
-                    class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
+                    className="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-item grid-sizer cat-two"
                   >
-                    <div class="product-item-two mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                    <div className="product-item-two mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/flash_product08.jpg"
+                            src="/assets/img/product/flash_product08.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h6 class="title">
-                          <a href="shop-details.html">Fashion High scalding</a>
+                      <div className="product-content">
+                        <h6 className="title">
+                         <Link href="/pro/hello-product">Fashion High scalding</Link>
                         </h6>
-                        <h4 class="price">$29.08 <span>-30%</span></h4>
-                        <div class="content-bottom">
+                        <h4 className="price">$29.08 <span>-30%</span></h4>
+                        <div className="content-bottom">
                           <ul>
                             <li>3.3k+ Orders ~</li>
-                            <li><i class="fa-solid fa-star"></i>4.5</li>
+                            <li><i className="fa-solid fa-star"></i>4.5</li>
                           </ul>
                         </div>
                       </div>

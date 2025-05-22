@@ -1,46 +1,47 @@
 import React from "react";
+import Link from "next/link";
 
 const page = () => {
   return (
     <main>
-      <section class="breadcrumb-area breadcrumb-bg">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8 order-2 order-md-0">
-              <div class="breadcrumb-product text-center">
-                <div class="thumb">
-                  <a href="shop-details.html">
+      <section className="breadcrumb-area breadcrumb-bg">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-5 col-sm-8 order-2 order-md-0">
+              <div className="breadcrumb-product text-center">
+                <div className="thumb">
+                 <Link href="/pro/hello-product">
                     <img
-                      src="assets/img/product/br_product_img.png"
+                      src="/assets/img/product/br_product_img.png"
                       alt="img"
                     />
-                  </a>
+                  </Link>
                   <span>35% OFF</span>
                 </div>
-                <div class="content">
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                <div className="content">
+                  <div className="rating">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
-                  <h4 class="title">
-                    <a href="shop-details.html">Blender Mixer Food</a>
+                  <h4 className="title">
+                   <Link href="/pro/hello-product">Blender Mixer Food</Link>
                   </h4>
-                  <h5 class="price">$37.00</h5>
+                  <h5 className="price">$37.00</h5>
                 </div>
               </div>
             </div>
-            <div class="col-xl-9 col-lg-8 col-md-7">
-              <div class="breadcrumb-content">
-                <h2 class="title">Discount shop</h2>
+            <div className="col-xl-9 col-lg-8 col-md-7">
+              <div className="breadcrumb-content">
+                <h2 className="title">Discount shop</h2>
                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <a href="index-2.html">Home</a>
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item">
+                     <Link href="index-2.html">Home</Link>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">
+                    <li className="breadcrumb-item active" aria-current="page">
                       Shop
                     </li>
                   </ol>
@@ -51,141 +52,141 @@ const page = () => {
         </div>
       </section>
 
-      <section class="shop-area pt-90 pb-90">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-8 col-sm-10 order-2 order-lg-0">
-              <aside class="shop-sidebar">
-                <div class="widget mb-35">
-                  <div class="widget-title mb-25">
-                    <h4 class="title">Category</h4>
+      <section className="shop-area pt-90 pb-90">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-8 col-sm-10 order-2 order-lg-0">
+             <aside className="shop-sidebar">
+                <div className="widget mb-35">
+                  <div className="widget-title mb-25">
+                    <h4 className="title">Category</h4>
                   </div>
-                  <div class="shop-cat-list">
+                  <div className="shop-cat-list">
                     <ul>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Furniture <span>8</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Coffee & Tables1 <span>3</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Lighting3 <span>2</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Decoration5 <span>5</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Electronics1 <span>9</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Beds2 <span>8</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Armchairs & Chaises3 <span>7</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Sofas & Sleeper Sofas <span>3</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="widget mb-40">
-                  <div class="widget-title mb-25">
-                    <h4 class="title">Best Seller</h4>
+                <div className="widget mb-40">
+                  <div className="widget-title mb-25">
+                    <h4 className="title">Best Seller</h4>
                   </div>
-                  <div class="sidebar-product-list">
+                  <div className="sidebar-product-list">
                     <ul>
                       <li>
-                        <div class="thumb">
-                          <a href="shop-details.html">
+                        <div className="thumb">
+                         <Link href="/pro/hello-product">
                             <img
-                              src="assets/img/product/sidebar_product01.jpg"
+                              src="/assets/img/product/sidebar_product01.jpg"
                               alt="img"
                             />
-                          </a>
+                          </Link>
                         </div>
-                        <div class="content">
-                          <h6 class="title">
-                            <a href="shop-details.html">
+                        <div className="content">
+                          <h6 className="title">
+                           <Link href="/pro/hello-product">
                               Appliance Aid Kitchen Stand
-                            </a>
+                            </Link>
                           </h6>
-                          <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                          <div className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
                           </div>
-                          <h4 class="price">
+                          <h4 className="price">
                             <del>$39.08</del> $19.00
                           </h4>
                         </div>
                       </li>
                       <li>
-                        <div class="thumb">
-                          <a href="shop-details.html">
+                        <div className="thumb">
+                         <Link href="/pro/hello-product">
                             <img
-                              src="assets/img/product/sidebar_product02.jpg"
+                              src="/assets/img/product/sidebar_product02.jpg"
                               alt="img"
                             />
-                          </a>
+                          </Link>
                         </div>
-                        <div class="content">
-                          <h6 class="title">
-                            <a href="shop-details.html">One Washer Dryer</a>
+                        <div className="content">
+                          <h6 className="title">
+                           <Link href="/pro/hello-product">One Washer Dryer</Link>
                           </h6>
-                          <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                          <div className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
                           </div>
-                          <h4 class="price">
+                          <h4 className="price">
                             <del>$39.08</del> $19.00
                           </h4>
                         </div>
                       </li>
                       <li>
-                        <div class="thumb">
-                          <a href="shop-details.html">
+                        <div className="thumb">
+                         <Link href="/pro/hello-product">
                             <img
-                              src="assets/img/product/sidebar_product03.jpg"
+                              src="/assets/img/product/sidebar_product03.jpg"
                               alt="img"
                             />
-                          </a>
+                          </Link>
                         </div>
-                        <div class="content">
-                          <h6 class="title">
-                            <a href="shop-details.html">
+                        <div className="content">
+                          <h6 className="title">
+                           <Link href="/pro/hello-product">
                               Electric Blender Mixer
-                            </a>
+                            </Link>
                           </h6>
-                          <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                          <div className="rating">
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
                           </div>
-                          <h4 class="price">
+                          <h4 className="price">
                             <del>$39.08</del> $19.00
                           </h4>
                         </div>
@@ -193,14 +194,14 @@ const page = () => {
                     </ul>
                   </div>
                 </div>
-                <div class="widget mb-40">
-                  <div class="widget-title price-title mb-15">
-                    <h4 class="title">Filter by price :</h4>
+                <div className="widget mb-40">
+                  <div className="widget-title price-title mb-15">
+                    <h4 className="title">Filter by price :</h4>
                   </div>
-                  <div class="price_filter">
+                  <div className="price_filter">
                     <div id="slider-range"></div>
-                    <div class="price_slider_amount">
-                      <input type="submit" class="btn" value="Filter" />
+                    <div className="price_slider_amount">
+                      <input type="submit" className="btn" value="Filter" />
                       <span>Price :</span>
                       <input
                         type="text"
@@ -211,57 +212,57 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="widget">
-                  <div class="widget-title mb-15">
-                    <h4 class="title">Product Brand</h4>
+                <div className="widget">
+                  <div className="widget-title mb-15">
+                    <h4 className="title">Product Brand</h4>
                   </div>
-                  <div class="shop-brand-list">
+                  <div className="shop-brand-list">
                     <ul>
                       <li>
-                        <a href="#">
-                          New Arrivals <i class="fa-solid fa-angles-right"></i>
-                        </a>
+                       <Link href="#">
+                          New Arrivals <i className="fa-solid fa-angles-right"></i>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Clothing & Accessories{" "}
-                          <i class="fa-solid fa-angles-right"></i>
-                        </a>
+                          <i className="fa-solid fa-angles-right"></i>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          Electronics <i class="fa-solid fa-angles-right"></i>
-                        </a>
+                       <Link href="#">
+                          Electronics <i className="fa-solid fa-angles-right"></i>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Home Appliance{" "}
-                          <i class="fa-solid fa-angles-right"></i>
-                        </a>
+                          <i className="fa-solid fa-angles-right"></i>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                       <Link href="#">
                           Gaming Accessories{" "}
-                          <i class="fa-solid fa-angles-right"></i>
-                        </a>
+                          <i className="fa-solid fa-angles-right"></i>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </aside>
             </div>
-            <div class="col-xl-9 col-lg-8">
-              <div class="shop-top-wrap mb-35">
-                <div class="shop-top-left">
-                  <h5 class="title">Shop</h5>
+            <div className="col-xl-9 col-lg-8">
+              <div className="shop-top-wrap mb-35">
+                <div className="shop-top-left">
+                  <h5 className="title">Shop</h5>
                 </div>
-                <div class="shop-top-right">
+                <div className="shop-top-right">
                   <form action="#">
                     <label for="Sort by">sort By</label>
                     <select
                       id="shortBy"
                       name="select"
-                      class="form-select"
+                      className="form-select"
                       aria-label="Default select example"
                     >
                       <option value="">Sorting</option>
@@ -273,61 +274,61 @@ const page = () => {
                   </form>
                   <ul>
                     <li>View</li>
-                    <li class="active">
-                      <a href="#">
-                        <i class="fa-solid fa-table-cells"></i>
-                      </a>
+                    <li className="active">
+                     <Link href="#">
+                        <i className="fa-solid fa-table-cells"></i>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
-                        <i class="fa-solid fa-bars"></i>
-                      </a>
+                     <Link href="#">
+                        <i className="fa-solid fa-bars"></i>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="row justify-content-center">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+              <div className="row justify-content-center">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img01.png"
+                          src="/assets/img/product/shop_img01.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">Market Store</a>
+                          Sold by<Link href="vendor-profile.html">Market Store</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">
                           Electric Blender Mixer Food
-                        </a>
+                        </Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 75%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-75"
+                          className="progress-bar w-75"
                           role="progressbar"
                           aria-valuenow="75"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -335,47 +336,47 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img02.png"
+                          src="/assets/img/product/shop_img02.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">olle Store</a>
+                          Sold by<Link href="vendor-profile.html">olle Store</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">
                           Car Air Purifier With HEPA
-                        </a>
+                        </Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 50%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-50"
+                          className="progress-bar w-50"
                           role="progressbar"
                           aria-valuenow="50"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -383,45 +384,45 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href={`/pro/${`One Washer Dryer Combo`}`}>
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href={`/pro/${`One Washer Dryer Combo`}`}>
                         <img
-                          src="assets/img/product/shop_img03.png"
+                          src="/assets/img/product/shop_img03.png"
                           alt="img"
                         />
-                      </a>{" "}
+                      </Link>{" "}
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">alto</a>
+                          Sold by<Link href="vendor-profile.html">alto</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">One Washer Dryer Combo</a>
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">One Washer Dryer Combo</Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 75%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-75"
+                          className="progress-bar w-75"
                           role="progressbar"
                           aria-valuenow="75"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -429,45 +430,45 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img04.png"
+                          src="/assets/img/product/shop_img04.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <span class="tag">
-                        Sold by <a href="vendor-profile.html">Market Store</a>
+                    <div className="shop-content">
+                      <span className="tag">
+                        Sold by<Link href="vendor-profile.html">Market Store</Link>
                       </span>
-                      <h2 class="title">
-                        <a href="shop-details.html">
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">
                           Parts Multi-function Portable
-                        </a>
+                        </Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 25%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-25"
+                          className="progress-bar w-25"
                           role="progressbar"
                           aria-valuenow="25"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -475,45 +476,45 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img05.png"
+                          src="/assets/img/product/shop_img05.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">olle Store</a>
+                          Sold by<Link href="vendor-profile.html">olle Store</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">Outdoor Travel 35L Sport</a>
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">Outdoor Travel 35L Sport</Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 100%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-100"
+                          className="progress-bar w-100"
                           role="progressbar"
                           aria-valuenow="100"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -521,45 +522,45 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img06.png"
+                          src="/assets/img/product/shop_img06.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">alto</a>
+                          Sold by<Link href="vendor-profile.html">alto</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">OnePlus 8 Pronyx Black</a>
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">OnePlus 8 Pronyx Black</Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 50%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-50"
+                          className="progress-bar w-50"
                           role="progressbar"
                           aria-valuenow="50"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -567,47 +568,47 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img07.png"
+                          src="/assets/img/product/shop_img07.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">Market Store</a>
+                          Sold by<Link href="vendor-profile.html">Market Store</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">
                           Electric Blender Mixer Food
-                        </a>
+                        </Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 75%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-75"
+                          className="progress-bar w-75"
                           role="progressbar"
                           aria-valuenow="75"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -615,47 +616,47 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img08.png"
+                          src="/assets/img/product/shop_img08.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">Olle Store</a>
+                          Sold by<Link href="vendor-profile.html">Olle Store</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">
                           Car Air Purifier With HEPA
-                        </a>
+                        </Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 25%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-25"
+                          className="progress-bar w-25"
                           role="progressbar"
                           aria-valuenow="25"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -663,45 +664,45 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-8">
-                  <div class="shop-product-item mb-30">
-                    <div class="shop-thumb">
-                      <a href="shop-details.html">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-8">
+                  <div className="shop-product-item mb-30">
+                    <div className="shop-thumb">
+                     <Link href="/pro/hello-product">
                         <img
-                          src="assets/img/product/shop_img09.png"
+                          src="/assets/img/product/shop_img09.png"
                           alt="img"
                         />
-                      </a>
+                      </Link>
                       <span>New</span>
                     </div>
-                    <div class="shop-content">
-                      <ul class="tag">
+                    <div className="shop-content">
+                      <ul className="tag">
                         <li>
-                          Sold by <a href="vendor-profile.html">alto</a>
+                          Sold by<Link href="vendor-profile.html">alto</Link>
                         </li>
                       </ul>
-                      <h2 class="title">
-                        <a href="shop-details.html">One Washer Dryer Combo</a>
+                      <h2 className="title">
+                       <Link href="/pro/hello-product">One Washer Dryer Combo</Link>
                       </h2>
-                      <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                      <div className="rating">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                       </div>
                       <span>Already Sold : 75%</span>
-                      <div class="progress">
+                      <div className="progress">
                         <div
-                          class="progress-bar w-75"
+                          className="progress-bar w-75"
                           role="progressbar"
                           aria-valuenow="75"
                           aria-valuemin="0"
                           aria-valuemax="100"
                         ></div>
                       </div>
-                      <div class="content-bottom">
-                        <h4 class="price">$39.08</h4>
+                      <div className="content-bottom">
+                        <h4 className="price">$39.08</h4>
                         <p>
                           0 orders <span>-35%</span>
                         </p>
@@ -710,18 +711,18 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div class="shop-bottom-wrap">
-                <div class="shop-bottom-top">
-                  <h5 class="title">Shop</h5>
+              <div className="shop-bottom-wrap">
+                <div className="shop-bottom-top">
+                  <h5 className="title">Shop</h5>
                   <p>Showing 1-09 of 30 Item(S)</p>
                 </div>
-                <div class="shop-bottom-box">
-                  <div class="shop-bottom-left">
+                <div className="shop-bottom-box">
+                  <div className="shop-bottom-left">
                     <form action="#">
                       <select
                         id="shortBy"
                         name="select"
-                        class="form-select"
+                        className="form-select"
                         aria-label="Default select example"
                       >
                         <option value="">Show 09</option>
@@ -732,12 +733,12 @@ const page = () => {
                       </select>
                     </form>
                   </div>
-                  <div class="shop-bottom-right">
+                  <div className="shop-bottom-right">
                     <form action="#">
                       <select
                         id="shortBy"
                         name="select"
-                        class="form-select"
+                        className="form-select"
                         aria-label="Default select example"
                       >
                         <option value="">Default sorting</option>
@@ -748,15 +749,15 @@ const page = () => {
                       </select>
                     </form>
                     <ul>
-                      <li class="active">
-                        <a href="#">
-                          <i class="fa-solid fa-table-cells"></i>
-                        </a>
+                      <li className="active">
+                       <Link href="#">
+                          <i className="fa-solid fa-table-cells"></i>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
-                          <i class="fa-solid fa-bars"></i>
-                        </a>
+                       <Link href="#">
+                          <i className="fa-solid fa-bars"></i>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -767,19 +768,19 @@ const page = () => {
         </div>
       </section>
 
-      <section class="newsletter-area-two">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-xl-7 col-lg-6 col-md-12">
-              <div class="newsletter-content">
-                <i class="fa-regular fa-paper-plane"></i>
-                <h2 class="title">
+      <section className="newsletter-area-two">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-xl-7 col-lg-6 col-md-12">
+              <div className="newsletter-content">
+                <i className="fa-regular fa-paper-plane"></i>
+                <h2 className="title">
                   Sign Up for get 10% Weekly <span>Newsletter</span>
                 </h2>
               </div>
             </div>
-            <div class="col-xl-5 col-lg-6 col-md-10">
-              <div class="newsletter-form">
+            <div className="col-xl-5 col-lg-6 col-md-10">
+              <div className="newsletter-form">
                 <input type="text" placeholder="Your email here..." />
                 <button type="submit">Subscribe</button>
               </div>

@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/server_component/partials/Footer";
 import Header from "@/components/server_component/partials/Header";
+import NextTopLoader from "nextjs-toploader";
 import ScrollBtn from "@/components/client_component/ScrollBtn";
 
 const geistSans = Geist({
@@ -32,46 +33,52 @@ export default function RootLayout({ children }) {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/img/favicon.png"
+          href="/assets/img/favicon.png"
         />
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/animate.min.css" />
-        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-        <link rel="stylesheet" href="assets/css/mCustomScrollbar.min.css" />
-        <link rel="stylesheet" href="assets/css/odometer.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"></link>
-        <link rel="stylesheet" href="assets/css/flaticon.css" />
-        <link rel="stylesheet" href="assets/css/slick.css" />
-        <link rel="stylesheet" href="assets/css/jquery-ui.css" />
-        <link rel="stylesheet" href="assets/css/default.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/animate.min.css" />
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="/assets/css/mCustomScrollbar.min.css" />
+        <link rel="stylesheet" href="/assets/css/odometer.css" />
+        <link rel="stylesheet" href="/assets/css/flaticon.css" />
+        <link rel="stylesheet" href="/assets/css/slick.css" />
+        <link rel="stylesheet" href="/assets/css/jquery-ui.css" />
+        <link rel="stylesheet" href="/assets/css/default.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/responsive.css" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ScrollBtn></ScrollBtn>
         <main>
           <Header></Header>
+          <NextTopLoader
+            color="#FFFFFF"
+            initialPosition={0.08}
+            crawlSpeed={200}
+            height={3}
+            crawl={true}
+            showSpinner={false}
+          />
           {children}
           <Footer></Footer>
         </main>
-        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/jquery.odometer.min.js"></script>
-        <script src="assets/js/jquery.appear.js"></script>
-        <script src="assets/js/jquery.countdown.min.js"></script>
-        <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
-        <script src="assets/js/jquery-ui.min.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/ajax-form.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/isotope.pkgd.min.js"></script>
+        <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="/assets/js/jquery.odometer.min.js"></script>
+        <script src="/assets/js/jquery.appear.js"></script>
+        <script src="/assets/js/jquery.countdown.min.js"></script>
+        <script src="/assets/js/jquery.mCustomScrollbar.min.js"></script>
+        <script src="/assets/js/jquery-ui.min.js"></script>
+        <script src="/assets/js/slick.min.js"></script>
+        <script src="/assets/js/ajax-form.js"></script>
+        <script src="/assets/js/wow.min.js"></script>
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
       </body>
     </html>
   );

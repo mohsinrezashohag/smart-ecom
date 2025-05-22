@@ -1,23 +1,24 @@
 import React from 'react';
+import Link from 'next/link';
 
 const BestSeller = () => {
     return (
-        <section class="best-sell-product-area pt-90 pb-90">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-60">
-                <h2 class="title">Find Best Seller Vendor</h2>
+        <section className="best-sell-product-area pt-90 pb-90">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-60">
+                <h2 className="title">Find Best Seller Vendor</h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="best-sell-nav">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item" role="presentation">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="best-sell-nav">
+                <ul className="nav nav-tabs" id="myTab" role="tablist">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link active"
+                      className="nav-link active"
                       id="all-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#all"
@@ -26,17 +27,17 @@ const BestSeller = () => {
                       aria-controls="all"
                       aria-selected="true"
                     >
-                      <div class="icon">
-                        <i class="flaticon-shipping"></i>
+                      <div className="icon">
+                        <i className="flaticon-shipping"></i>
                       </div>
-                      <div class="content">
+                      <div className="content">
                         <p>All Categories</p>
                       </div>
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link"
+                      className="nav-link"
                       id="watch-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#watch"
@@ -45,17 +46,17 @@ const BestSeller = () => {
                       aria-controls="watch"
                       aria-selected="false"
                     >
-                      <div class="icon">
-                        <i class="flaticon-smartwatch"></i>
+                      <div className="icon">
+                        <i className="flaticon-smartwatch"></i>
                       </div>
-                      <div class="content">
-                        <p>smart watch RIYAN</p>
+                      <div className="content">
+                        <p>smart watch</p>
                       </div>
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link"
+                      className="nav-link"
                       id="electronics-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#electronics"
@@ -64,17 +65,17 @@ const BestSeller = () => {
                       aria-controls="electronics"
                       aria-selected="false"
                     >
-                      <div class="icon">
-                        <i class="flaticon-lamp"></i>
+                      <div className="icon">
+                        <i className="flaticon-lamp"></i>
                       </div>
-                      <div class="content">
+                      <div className="content">
                         <p>Consumer Electronics</p>
                       </div>
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link"
+                      className="nav-link"
                       id="appliance-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#appliance"
@@ -83,17 +84,17 @@ const BestSeller = () => {
                       aria-controls="appliance"
                       aria-selected="false"
                     >
-                      <div class="icon">
-                        <i class="flaticon-kitchen-utensils"></i>
+                      <div className="icon">
+                        <i className="flaticon-kitchen-utensils"></i>
                       </div>
-                      <div class="content">
+                      <div className="content">
                         <p>home appliance</p>
                       </div>
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link"
+                      className="nav-link"
                       id="shoes-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#shoes"
@@ -102,17 +103,17 @@ const BestSeller = () => {
                       aria-controls="shoes"
                       aria-selected="false"
                     >
-                      <div class="icon">
-                        <i class="flaticon-high-heels-1"></i>
+                      <div className="icon">
+                        <i className="flaticon-high-heels-1"></i>
                       </div>
-                      <div class="content">
+                      <div className="content">
                         <p>Shoes & Accessories</p>
                       </div>
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      class="nav-link"
+                      className="nav-link"
                       id="sports-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#sports"
@@ -121,140 +122,140 @@ const BestSeller = () => {
                       aria-controls="sports"
                       aria-selected="false"
                     >
-                      <div class="icon">
-                        <i class="flaticon-sport-equipment"></i>
+                      <div className="icon">
+                        <i className="flaticon-sport-equipment"></i>
                       </div>
-                      <div class="content">
+                      <div className="content">
                         <p>Sports & Entertainment</p>
                       </div>
                     </button>
                   </li>
                 </ul>
               </div>
-              <div class="tab-content" id="myTabContent">
+              <div className="tab-content" id="myTabContent">
                 <div
-                  class="tab-pane fade show active"
+                  className="tab-pane fade show active"
                   id="all"
                   role="tabpanel"
                   aria-labelledby="all-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -266,123 +267,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -396,128 +397,128 @@ const BestSeller = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="watch"
                   role="tabpanel"
                   aria-labelledby="watch-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -529,123 +530,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -659,128 +660,128 @@ const BestSeller = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="electronics"
                   role="tabpanel"
                   aria-labelledby="electronics-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -792,123 +793,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -922,128 +923,128 @@ const BestSeller = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="appliance"
                   role="tabpanel"
                   aria-labelledby="appliance-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -1055,123 +1056,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -1185,128 +1186,128 @@ const BestSeller = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="shoes"
                   role="tabpanel"
                   aria-labelledby="shoes-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -1318,123 +1319,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -1448,128 +1449,128 @@ const BestSeller = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="sports"
                   role="tabpanel"
                   aria-labelledby="sports-tab"
                 >
-                  <div class="row mb-20">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-sliders"></i>
+                  <div className="row mb-20">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-sliders"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Theme Beyond Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Theme Beyond Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>2 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>40k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $45,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">5,000,00+</h2>
+                                    <h2 className="title">5,000,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product01.png"
+                                        src="/assets/img/product/vendor_product01.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product02.png"
+                                        src="/assets/img/product/vendor_product02.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product03.png"
+                                        src="/assets/img/product/vendor_product03.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product04.png"
+                                        src="/assets/img/product/vendor_product04.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
@@ -1581,123 +1582,123 @@ const BestSeller = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xl-12">
-                      <div class="vendor-wrap">
-                        <div class="row">
-                          <div class="col-xl-5 col-lg-8">
-                            <div class="vendor-content">
-                              <div class="content-top mb-20">
-                                <div class="icon">
-                                  <i class="fa-solid fa-shield"></i>
+                  <div className="row">
+                    <div className="col-xl-12">
+                      <div className="vendor-wrap">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-8">
+                            <div className="vendor-content">
+                              <div className="content-top mb-20">
+                                <div className="icon">
+                                  <i className="fa-solid fa-shield"></i>
                                 </div>
-                                <div class="content">
-                                  <h2 class="title">
-                                    <a href="#">Olle Technology.Ltd</a>
+                                <div className="content">
+                                  <h2 className="title">
+                                   <Link href="#">Olle Technology.Ltd</Link>
                                   </h2>
                                   <ul>
                                     <li>1 year</li>
                                     <li>
-                                      <a href="#"
+                                     <Link href="#"
                                         >Verified
                                         <img
-                                          src="assets/img/icon/verified_icon.png"
+                                          src="/assets/img/icon/verified_icon.png"
                                           alt=""
-                                      /></a>
+                                      /></Link>
                                     </li>
                                     <li>13k Customer</li>
                                   </ul>
                                 </div>
                               </div>
-                              <div class="ranking mb-30">
+                              <div className="ranking mb-30">
                                 <ul>
                                   <li>No.1 Vendor Rankings</li>
                                   <li>Annual Sales $5,000,00</li>
                                 </ul>
                               </div>
-                              <div class="vendor-services">
+                              <div className="vendor-services">
                                 <ul>
                                   <li>
-                                    <h2 class="title">+/- 5 hr</h2>
+                                    <h2 className="title">+/- 5 hr</h2>
                                     <p>Response Time</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">200,00+</h2>
+                                    <h2 className="title">200,00+</h2>
                                     <p>Transtctions</p>
                                   </li>
                                   <li>
-                                    <h2 class="title">100%</h2>
+                                    <h2 className="title">100%</h2>
                                     <p>On-time delivery</p>
                                   </li>
                                 </ul>
                               </div>
                             </div>
                           </div>
-                          <div class="col-xl-7 col-lg-12">
-                            <div class="vendor-product-wrap">
+                          <div className="col-xl-7 col-lg-12">
+                            <div className="vendor-product-wrap">
                               <ul>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product05.png"
+                                        src="/assets/img/product/vendor_product05.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Gloves $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Gloves $9.08</Link
                                       >
                                     </h2>
                                     <span>15 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product06.png"
+                                        src="/assets/img/product/vendor_product06.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >watch $8.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >watch $8.08</Link
                                       >
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product07.png"
+                                        src="/assets/img/product/vendor_product07.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html"
-                                        >Shoes $9.08</a
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product"
+                                        >Shoes $9.08</Link
                                       >
                                     </h2>
                                     <span>03 (Sale)</span>
                                   </div>
                                 </li>
-                                <li class="vendor-product">
-                                  <div class="thumb">
-                                    <a href="shop-details.html"
+                                <li className="vendor-product">
+                                  <div className="thumb">
+                                   <Link href="/pro/hello-product"
                                       ><img
-                                        src="assets/img/product/vendor_product08.png"
+                                        src="/assets/img/product/vendor_product08.png"
                                         alt=""
-                                    /></a>
+                                    /></Link>
                                   </div>
-                                  <div class="content">
-                                    <h2 class="title">
-                                      <a href="shop-details.html">Cap $5.08</a>
+                                  <div className="content">
+                                    <h2 className="title">
+                                     <Link href="/pro/hello-product">Cap $5.08</Link>
                                     </h2>
                                     <span>15k+ (Sale)</span>
                                   </div>

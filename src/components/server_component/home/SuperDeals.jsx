@@ -1,139 +1,142 @@
+import Link from 'next/link';
 import React from 'react';
 
 const SuperDeals = () => {
     return (
-           <section class="super-deals-product-area pt-30 pb-70">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="product-wrap mb-30">
-                <div class="row align-items-center mb-20">
-                  <div class="col-xl-3 col-lg-4 col-md-3">
-                    <div class="section-title">
-                      <h2 class="title">Super <span>Deals</span></h2>
+           <section className="super-deals-product-area pt-30 pb-70">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="product-wrap mb-30">
+                <div className="row align-items-center mb-20">
+                  <div className="col-xl-3 col-lg-4 col-md-3">
+                    <div className="section-title">
+                      <h2 className="title">Super <span>Deals</span></h2>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 col-md-7">
-                    <div class="super-deals-countdown">
+                  <div className="col-xl-6 col-lg-6 col-md-7">
+                    <div className="super-deals-countdown">
                       <p>Top products. Incredible prices</p>
-                      <div class="coming-time" data-countdown="2023/4/30"></div>
+                      <div className="coming-time" data-countdown="2023/4/30"></div>
                     </div>
                   </div>
-                  <div class="col-xl-3 col-lg-2 col-md-2">
-                    <div class="view-more text-end">
-                      <a href="shop.html">View more</a>
+                  <div className="col-xl-3 col-lg-2 col-md-2">
+                    <div className="view-more text-end">
+                     <Link href="shop.html">View more</Link>
                     </div>
                   </div>
                 </div>
-                <div class="row justify-content-center">
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                <div className="row justify-content-center">
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                   <Link href={`/pro/hello-product`}>
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product01.jpg"
+                            src="/assets/img/product/super_product01.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Watch $29.08<span>-35%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Watch $29.08<span>-35%</span></Link
                           >
                         </h4>
                         <p>0 orders</p>
                       </div>
                     </div>
+                   </Link>
                   </div>
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product02.jpg"
+                            src="/assets/img/product/super_product02.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Backup $29.08<span>-25%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Backup $29.08<span>-25%</span></Link
                           >
                         </h4>
                         <p>05 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product03.jpg"
+                            src="/assets/img/product/super_product03.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Fashion $15.08<span>-35%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Fashion $15.08<span>-35%</span></Link
                           >
                         </h4>
                         <p>13 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product04.jpg"
+                            src="/assets/img/product/super_product04.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Watch $29.08<span>-35%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Watch $29.08<span>-35%</span></Link
                           >
                         </h4>
                         <p>50 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product05.jpg"
+                            src="/assets/img/product/super_product05.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Accessories<span>-15%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Accessories<span>-15%</span></Link
                           >
                         </h4>
                         <p>02 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product06.jpg"
+                            src="/assets/img/product/super_product06.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Jewellery $29.08<span>-20%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Jewellery $29.08<span>-20%</span></Link
                           >
                         </h4>
                         <p>20 orders</p>
@@ -144,73 +147,73 @@ const SuperDeals = () => {
               </div>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-9">
-              <div class="product-wrap top-product mb-20">
-                <div class="row mb-20">
-                  <div class="col-md-6">
-                    <div class="product-title">
-                      <h4 class="title">Top Selection</h4>
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-9">
+              <div className="product-wrap top-product mb-20">
+                <div className="row mb-20">
+                  <div className="col-md-6">
+                    <div className="product-title">
+                      <h4 className="title">Top Selection</h4>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="view-more text-end">
-                      <a href="shop.html">View more</a>
+                  <div className="col-md-6">
+                    <div className="view-more text-end">
+                     <Link href="shop.html">View more</Link>
                     </div>
                   </div>
                 </div>
-                <div class="row justify-content-center">
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                <div className="row justify-content-center">
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product07.jpg"
+                            src="/assets/img/product/super_product07.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >launch $29.08<span>-30%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >launch $29.08<span>-30%</span></Link
                           >
                         </h4>
                         <p>40 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product08.jpg"
+                            src="/assets/img/product/super_product08.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Watch $29.08<span>-40%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Watch $29.08<span>-40%</span></Link
                           >
                         </h4>
                         <p>20 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product09.jpg"
+                            src="/assets/img/product/super_product09.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >phone $29.08<span>-10%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >phone $29.08<span>-10%</span></Link
                           >
                         </h4>
                         <p>30 orders</p>
@@ -220,72 +223,72 @@ const SuperDeals = () => {
                 </div>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-9">
-              <div class="product-wrap top-product mb-20">
-                <div class="row mb-20">
-                  <div class="col-md-6">
-                    <div class="product-title">
-                      <h4 class="title">New arrivals</h4>
+            <div className="col-xl-6 col-lg-9">
+              <div className="product-wrap top-product mb-20">
+                <div className="row mb-20">
+                  <div className="col-md-6">
+                    <div className="product-title">
+                      <h4 className="title">New arrivals</h4>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="view-more text-end">
-                      <a href="shop.html">View more</a>
+                  <div className="col-md-6">
+                    <div className="view-more text-end">
+                     <Link href="shop.html">View more</Link>
                     </div>
                   </div>
                 </div>
-                <div class="row justify-content-center">
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                <div className="row justify-content-center">
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product10.jpg"
+                            src="/assets/img/product/super_product10.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >launch $29.08<span>-30%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >launch $29.08<span>-30%</span></Link
                           >
                         </h4>
                         <p>40 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product11.jpg"
+                            src="/assets/img/product/super_product11.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >Watch $29.08<span>-40%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >Watch $29.08<span>-40%</span></Link
                           >
                         </h4>
                         <p>20 orders</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6">
-                    <div class="product-item mb-30">
-                      <div class="product-thumb">
-                        <a href="shop-details.html"
+                  <div className="col-md-4 col-sm-6">
+                    <div className="product-item mb-30">
+                      <div className="product-thumb">
+                       <Link href="/pro/hello-product"
                           ><img
-                            src="assets/img/product/super_product12.jpg"
+                            src="/assets/img/product/super_product12.jpg"
                             alt=""
-                        /></a>
+                        /></Link>
                       </div>
-                      <div class="product-content">
-                        <h4 class="title">
-                          <a href="shop-details.html"
-                            >phone $29.08<span>-10%</span></a
+                      <div className="product-content">
+                        <h4 className="title">
+                         <Link href="/pro/hello-product"
+                            >phone $29.08<span>-10%</span></Link
                           >
                         </h4>
                         <p>30 orders</p>
