@@ -28,7 +28,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-xl-2 col-lg-3">
               <div className="logo">
-                <a href="index-2.html"
+                <a href=""
                   ><img src="assets/img/logo/logo.png" alt=""
                 /></a>
               </div>
@@ -60,6 +60,7 @@ const Header = () => {
                     <li className="header-shop">
                       <a href="#"
                         ><i className="flaticon-shopping-bag"></i>Cart
+                        
                         <span className="cart-count">0</span>
                       </a>
                     </li>

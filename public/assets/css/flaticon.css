@@ -6,6 +6,7 @@
     url("../fonts/Flaticon-3.html") format("woff"),
     url("../fonts/Flaticon-4.html") format("truetype"),
     url("../fonts/Flaticon-5.html#Flaticon") format("svg");
+    
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {

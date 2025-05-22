@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/server_component/partials/Footer";
 import Header from "@/components/server_component/partials/Header";
+import ScrollBtn from "@/components/client_component/ScrollBtn";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,8 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
         <link rel="stylesheet" href="assets/css/mCustomScrollbar.min.css" />
         <link rel="stylesheet" href="assets/css/odometer.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"></link>
         <link rel="stylesheet" href="assets/css/flaticon.css" />
         <link rel="stylesheet" href="assets/css/slick.css" />
         <link rel="stylesheet" href="assets/css/jquery-ui.css" />
@@ -48,9 +51,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/responsive.css" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <button className="scroll-top scroll-to-target" data-target="html">
-          <i className="fas fa-angle-up"></i>
-        </button>
+        <ScrollBtn></ScrollBtn>
         <main>
           <Header></Header>
           {children}
