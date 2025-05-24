@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import CartBtn from '@/components/buttons/CartBtn';
+import BrowserCatBtn from '@/components/buttons/BrowserCatBtn';
 
 const Header = () => {
     return (
@@ -88,11 +89,7 @@ const Header = () => {
                     /></Link>
                   </div>
                   <div className="header-category">
-                   <Link href="#" className="cat-toggle">
-                      <i className="fas fa-bars"></i>
-                      Browse Categories RIYAN
-                      <i className="fas fa-angle-down"></i>
-                    </Link>
+                   <BrowserCatBtn></BrowserCatBtn>
                     <ul className="category-menu">
                       <li className="add-megamenu">
                        <Link href="#"

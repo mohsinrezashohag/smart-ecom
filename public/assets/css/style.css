@@ -501,7 +501,7 @@ label {
 .header-category {
 	position: relative;
 }
-.header-category > a {
+.header-category > a, .browse {
     display: flex;
     align-items: center;
     padding: 16px 18px;
@@ -513,12 +513,30 @@ label {
     font-weight: 600;
     background: #1339fe;
 }
-.header-category > a i:first-child {
+.header-category > a, .browse i:first-child {
     margin-right: 18px;
 }
-.header-category > a i:last-child {
+.header-category > a, .browse i:last-child {
     margin-left: auto;
 }
+/* .header-category > button {
+    display: flex;
+    align-items: center;
+    padding: 16px 18px;
+    min-height: 53px;
+    min-width: 278px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    background: #1339fe;
+}
+.header-category > button i:first-child {
+    margin-right: 18px;
+}
+.header-category > button i:last-child {
+    margin-left: auto;
+} */
 .header-category .category-menu {
     position: absolute;
     left: 0;
@@ -804,9 +822,9 @@ label {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     border-radius: 0;
 }
-.sticky-menu .header-category .category-menu {
+/* .sticky-menu .header-category .category-menu {
     display: none;
-}
+} */
 
 
 /* 3. Mobile-menu */

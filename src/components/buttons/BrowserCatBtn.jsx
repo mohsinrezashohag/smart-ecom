@@ -1,0 +1,46 @@
+'use client'
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+
+const BrowserCatBtn = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+      // Hide menu if scroll position is less than 370
+      if (window.scrollY >= 370) {
+        setIsMenuVisible(false);
+        document.querySelector('.category-menu').style.display = 'none';
+      }
+      else if(window.scrollY < 370){
+        setIsMenuVisible(true);
+        document.querySelector('.category-menu').style.display = 'block';
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [window.scrollY]);
+
+  const toggleMenu = () => {
+  const newVisibility = !isMenuVisible;
+  setIsMenuVisible(newVisibility);
+  
+  const categoryMenu = document.querySelector('.category-menu');
+  if (categoryMenu) {
+    categoryMenu.style.display = newVisibility ? 'block' : 'none';
+  }
+};
+
+  return (
+    <button className="cat-toggle browse" onClick={toggleMenu}>
+      <i className="fas fa-bars"></i>
+      Browse Categories
+      <i className="fas fa-angle-down"></i>
+    </button>
+  );
+};
+
+export default BrowserCatBtn;
