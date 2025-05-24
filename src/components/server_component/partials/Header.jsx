@@ -760,10 +760,6 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-                      <li className="more-categories">
-                        All Categories
-                        <i className="fas fa-chevron-right"></i>
-                      </li>
                     </ul>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">

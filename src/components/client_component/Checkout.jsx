@@ -99,6 +99,7 @@ const Checkout = () => {
                                     }}
                                   >-</button>
                                   <input 
+                                    style={{margin: "0px 5px"}}
                                     className="cart-plus-minus" 
                                     type="text" 
                                     value={item.quantity} 
