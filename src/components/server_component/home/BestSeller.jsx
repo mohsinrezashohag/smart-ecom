@@ -1,4 +1,10 @@
 import React from 'react';
+import { BsSmartwatch } from "react-icons/bs";
+import { LuUtensilsCrossed } from "react-icons/lu";
+import { GiHighHeel } from "react-icons/gi";
+import { MdElectricalServices } from "react-icons/md";
+import { TbCategory } from "react-icons/tb";
+import { MdSportsVolleyball } from "react-icons/md";
 import Link from 'next/link';
 
 const BestSeller = () => {
@@ -28,7 +34,7 @@ const BestSeller = () => {
                       aria-selected="true"
                     >
                       <div className="icon">
-                        <i className="flaticon-shipping"></i>
+                        <TbCategory />
                       </div>
                       <div className="content">
                         <p>All Categories</p>
@@ -47,7 +53,7 @@ const BestSeller = () => {
                       aria-selected="false"
                     >
                       <div className="icon">
-                        <i className="flaticon-smartwatch"></i>
+                        <BsSmartwatch />
                       </div>
                       <div className="content">
                         <p>smart watch</p>
@@ -66,7 +72,7 @@ const BestSeller = () => {
                       aria-selected="false"
                     >
                       <div className="icon">
-                        <i className="flaticon-lamp"></i>
+                        <MdElectricalServices />
                       </div>
                       <div className="content">
                         <p>Consumer Electronics</p>
@@ -85,7 +91,7 @@ const BestSeller = () => {
                       aria-selected="false"
                     >
                       <div className="icon">
-                        <i className="flaticon-kitchen-utensils"></i>
+                        <LuUtensilsCrossed />
                       </div>
                       <div className="content">
                         <p>home appliance</p>
@@ -104,7 +110,7 @@ const BestSeller = () => {
                       aria-selected="false"
                     >
                       <div className="icon">
-                        <i className="flaticon-high-heels-1"></i>
+                        <GiHighHeel />
                       </div>
                       <div className="content">
                         <p>Shoes & Accessories</p>
@@ -123,7 +129,7 @@ const BestSeller = () => {
                       aria-selected="false"
                     >
                       <div className="icon">
-                        <i className="flaticon-sport-equipment"></i>
+                        <MdSportsVolleyball />
                       </div>
                       <div className="content">
                         <p>Sports & Entertainment</p>
