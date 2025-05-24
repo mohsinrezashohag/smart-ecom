@@ -12,10 +12,14 @@ const BrowserCatBtn = () => {
       // Hide menu if scroll position is less than 370
       if (window.scrollY >= 370) {
         setIsMenuVisible(false);
+        document.querySelector('#sticky-header').classList.add('sticky-menu');
+        document.querySelector('.scroll-to-target').classList.add('open');
         document.querySelector('.category-menu').style.display = 'none';
       }
       else if(window.scrollY < 370){
         setIsMenuVisible(true);
+        document.querySelector('#sticky-header').classList.remove('sticky-menu');
+        document.querySelector('.scroll-to-target').classList.remove('open');
         document.querySelector('.category-menu').style.display = 'block';
       }
     };
@@ -33,7 +37,6 @@ const BrowserCatBtn = () => {
     categoryMenu.style.display = newVisibility ? 'block' : 'none';
   }
 };
-
   return (
     <button className="cat-toggle browse" onClick={toggleMenu}>
       <i className="fas fa-bars"></i>

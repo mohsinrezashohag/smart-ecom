@@ -822,9 +822,9 @@ label {
     box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     border-radius: 0;
 }
-/* .sticky-menu .header-category .category-menu {
+.sticky-menu .header-category .category-menu {
     display: none;
-} */
+}
 
 
 /* 3. Mobile-menu */
