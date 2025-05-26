@@ -18,7 +18,7 @@ const ChoseProduct = () => {
                 <div className="add-banner-img mb-20">
                  <Link href="shop.html"
                     ><img
-                      src="/assets/img/images/add_banner_img01.jpg"
+                      src="/assets/client_assests/img/images/add_banner_img01.jpg"
                       alt="img"
                   /></Link>
                 </div>
@@ -38,14 +38,14 @@ const ChoseProduct = () => {
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img01.jpg"
+                            src="/assets/client_assests/img/product/category_product_img01.jpg"
                             alt=""
                         /></Link>
                       </li>
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img02.jpg"
+                            src="/assets/client_assests/img/product/category_product_img02.jpg"
                             alt=""
                         /></Link>
                       </li>
@@ -59,14 +59,14 @@ const ChoseProduct = () => {
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img03.jpg"
+                            src="/assets/client_assests/img/product/category_product_img03.jpg"
                             alt=""
                         /></Link>
                       </li>
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img04.jpg"
+                            src="/assets/client_assests/img/product/category_product_img04.jpg"
                             alt=""
                         /></Link>
                       </li>
@@ -84,14 +84,14 @@ const ChoseProduct = () => {
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img05.jpg"
+                            src="/assets/client_assests/img/product/category_product_img05.jpg"
                             alt=""
                         /></Link>
                       </li>
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img06.jpg"
+                            src="/assets/client_assests/img/product/category_product_img06.jpg"
                             alt=""
                         /></Link>
                       </li>
@@ -105,14 +105,14 @@ const ChoseProduct = () => {
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img07.jpg"
+                            src="/assets/client_assests/img/product/category_product_img07.jpg"
                             alt=""
                         /></Link>
                       </li>
                       <li className="category-item">
                        <Link href="shop.html"
                           ><img
-                            src="/assets/img/product/category_product_img08.jpg"
+                            src="/assets/client_assests/img/product/category_product_img08.jpg"
                             alt=""
                         /></Link>
                       </li>
@@ -132,7 +132,7 @@ const ChoseProduct = () => {
                  <Link href="#" className="btn">Sign In</Link>
                 </div>
                <Link href="shop.html"
-                  ><img src="/assets/img/images/jo_img.jpg" alt=""
+                  ><img src="/assets/client_assests/img/images/jo_img.jpg" alt=""
                 /></Link>
               </div>
             </div>

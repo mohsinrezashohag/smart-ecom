@@ -33,7 +33,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product01.jpg"
+                            src="/assets/client_assests/img/product/super_product01.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -53,7 +53,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product02.jpg"
+                            src="/assets/client_assests/img/product/super_product02.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -72,7 +72,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product03.jpg"
+                            src="/assets/client_assests/img/product/super_product03.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -91,7 +91,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product04.jpg"
+                            src="/assets/client_assests/img/product/super_product04.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -110,7 +110,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product05.jpg"
+                            src="/assets/client_assests/img/product/super_product05.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -129,7 +129,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product06.jpg"
+                            src="/assets/client_assests/img/product/super_product06.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -168,7 +168,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product07.jpg"
+                            src="/assets/client_assests/img/product/super_product07.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -187,7 +187,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product08.jpg"
+                            src="/assets/client_assests/img/product/super_product08.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -206,7 +206,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product09.jpg"
+                            src="/assets/client_assests/img/product/super_product09.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -243,7 +243,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product10.jpg"
+                            src="/assets/client_assests/img/product/super_product10.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -262,7 +262,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product11.jpg"
+                            src="/assets/client_assests/img/product/super_product11.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -281,7 +281,7 @@ const SuperDeals = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/super_product12.jpg"
+                            src="/assets/client_assests/img/product/super_product12.jpg"
                             alt=""
                         /></Link>
                       </div>

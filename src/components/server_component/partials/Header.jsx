@@ -32,7 +32,7 @@ const Header = () => {
             <div className="col-xl-2 col-lg-3">
               <div className="logo">
                 <Link href="/"
-                  ><img src="/assets/img/logo/logo.png" alt=""
+                  ><img src="/assets/client_assests/img/logo/logo.png" alt=""
                 /></Link>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Header = () => {
                 <nav className="menu-nav">
                   <div className="logo d-none">
                     <Link href="/"
-                      ><img src="/assets/img/logo/w_logo.png" alt=""
+                      ><img src="/assets/client_assests/img/logo/w_logo.png" alt=""
                     /></Link>
                   </div>
                   <div className="header-category">
@@ -172,7 +172,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -249,7 +249,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -327,7 +327,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -404,7 +404,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -481,7 +481,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -568,7 +568,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -646,7 +646,7 @@ const Header = () => {
                               <li className="mega-menu-banner">
                                <Link href="/shop"
                                   ><img
-                                    src="/assets/img/images/megamenu_banner.jpg"
+                                    src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                     alt=""
                                 /></Link>
                               </li>
@@ -744,7 +744,7 @@ const Header = () => {
                                   <li className="mega-menu-banner">
                                    <Link href="/shop"
                                       ><img
-                                        src="/assets/img/images/megamenu_banner.jpg"
+                                        src="/assets/client_assests/img/images/megamenu_banner.jpg"
                                         alt=""
                                     /></Link>
                                   </li>
@@ -804,7 +804,7 @@ const Header = () => {
                        <Link href="#"
                           >Super Discount
                           <img
-                            src="/assets/img/images/discount_shape.png"
+                            src="/assets/client_assests/img/images/discount_shape.png"
                             alt=""
                         /></Link>
                       </li>
@@ -817,7 +817,7 @@ const Header = () => {
                   <div className="close-btn"><i className="fa-solid fa-xmark"></i></div>
                   <div className="nav-logo">
                     <Link href="/"
-                      ><img src="/assets/img/logo/logo.png" alt="" title=""
+                      ><img src="/assets/client_assests/img/logo/logo.png" alt="" title=""
                     /></Link>
                   </div>
                   <div className="menu-outer">

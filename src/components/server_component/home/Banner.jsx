@@ -11,7 +11,7 @@ const Banner = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6 order-0 order-lg-2">
                   <div className="banner-img">
-                    <img src="/assets/img/banner/banner_img.png" alt="" />
+                    <img src="/assets/client_assests/img/banner/banner_img.png" alt="" />
                     <div className="product-tooltip">
                       <div className="tooltip-btn"></div>
                       <div
@@ -23,7 +23,7 @@ const Banner = () => {
                         <div className="tooltip-product-thumb">
                          <Link href="/pro/hello-product">
                             <img
-                              src="/assets/img/product/tooltip_img.jpg"
+                              src="/assets/client_assests/img/product/tooltip_img.jpg"
                               alt=""
                             />
                           </Link>
@@ -49,7 +49,7 @@ const Banner = () => {
                         <div className="tooltip-product-thumb">
                          <Link href="/pro/hello-product">
                             <img
-                              src="/assets/img/product/tooltip_img.jpg"
+                              src="/assets/client_assests/img/product/tooltip_img.jpg"
                               alt=""
                             />
                           </Link>
@@ -73,7 +73,7 @@ const Banner = () => {
                         <div className="tooltip-product-thumb">
                          <Link href="/pro/hello-product">
                             <img
-                              src="/assets/img/product/tooltip_img.jpg"
+                              src="/assets/client_assests/img/product/tooltip_img.jpg"
                               alt=""
                             />
                           </Link>

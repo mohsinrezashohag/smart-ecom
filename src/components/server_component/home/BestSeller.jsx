@@ -165,7 +165,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -204,7 +204,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -221,7 +221,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -238,7 +238,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -255,7 +255,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -293,7 +293,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -332,7 +332,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -349,7 +349,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -366,7 +366,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -383,7 +383,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -428,7 +428,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -467,7 +467,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -484,7 +484,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -501,7 +501,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -518,7 +518,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -556,7 +556,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -595,7 +595,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -612,7 +612,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -629,7 +629,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -646,7 +646,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -691,7 +691,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -730,7 +730,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -747,7 +747,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -764,7 +764,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -781,7 +781,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -819,7 +819,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -858,7 +858,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -875,7 +875,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -892,7 +892,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -909,7 +909,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -954,7 +954,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -993,7 +993,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1010,7 +1010,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1027,7 +1027,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1044,7 +1044,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1082,7 +1082,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -1121,7 +1121,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1138,7 +1138,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1155,7 +1155,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1172,7 +1172,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1217,7 +1217,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -1256,7 +1256,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1273,7 +1273,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1290,7 +1290,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1307,7 +1307,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1345,7 +1345,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -1384,7 +1384,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1401,7 +1401,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1418,7 +1418,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1435,7 +1435,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1480,7 +1480,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -1519,7 +1519,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product01.png"
+                                        src="/assets/client_assests/img/product/vendor_product01.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1536,7 +1536,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product02.png"
+                                        src="/assets/client_assests/img/product/vendor_product02.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1553,7 +1553,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product03.png"
+                                        src="/assets/client_assests/img/product/vendor_product03.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1570,7 +1570,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product04.png"
+                                        src="/assets/client_assests/img/product/vendor_product04.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1608,7 +1608,7 @@ const BestSeller = () => {
                                      <Link href="#"
                                         >Verified
                                         <img
-                                          src="/assets/img/icon/verified_icon.png"
+                                          src="/assets/client_assests/img/icon/verified_icon.png"
                                           alt=""
                                       /></Link>
                                     </li>
@@ -1647,7 +1647,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product05.png"
+                                        src="/assets/client_assests/img/product/vendor_product05.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1664,7 +1664,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product06.png"
+                                        src="/assets/client_assests/img/product/vendor_product06.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1681,7 +1681,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product07.png"
+                                        src="/assets/client_assests/img/product/vendor_product07.png"
                                         alt=""
                                     /></Link>
                                   </div>
@@ -1698,7 +1698,7 @@ const BestSeller = () => {
                                   <div className="thumb">
                                    <Link href="/pro/hello-product"
                                       ><img
-                                        src="/assets/img/product/vendor_product08.png"
+                                        src="/assets/client_assests/img/product/vendor_product08.png"
                                         alt=""
                                     /></Link>
                                   </div>

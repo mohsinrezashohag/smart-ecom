@@ -9,7 +9,7 @@ const Features = () => {
             <div className="col-lg-6 col-md-10">
               <div className="features-item mb-30">
                 <div className="features-thumb">
-                  <img src="/assets/img/features/features_img01.jpg" alt="" />
+                  <img src="/assets/client_assests/img/features/features_img01.jpg" alt="" />
                 </div>
                 <div className="features-content">
                   <span>35% discount</span>
@@ -24,7 +24,7 @@ const Features = () => {
             <div className="col-lg-6 col-md-10">
               <div className="features-item mb-30">
                 <div className="features-thumb">
-                  <img src="/assets/img/features/features_img02.jpg" alt="" />
+                  <img src="/assets/client_assests/img/features/features_img02.jpg" alt="" />
                 </div>
                 <div className="features-content white-content">
                   <span>35% discount</span>

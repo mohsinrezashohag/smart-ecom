@@ -15,7 +15,7 @@ const FlashSell = () => {
                   <div className="add-banner-img">
                    <Link href="shop.html"
                       ><img
-                        src="/assets/img/images/add_banner_slider01.jpg"
+                        src="/assets/client_assests/img/images/add_banner_slider01.jpg"
                         alt=""
                     /></Link>
                   </div>
@@ -34,7 +34,7 @@ const FlashSell = () => {
                     <div className="thumb">
                      <Link href="/pro/hello-product"
                         ><img
-                          src="/assets/img/product/trending_product01.png"
+                          src="/assets/client_assests/img/product/trending_product01.png"
                           alt=""
                       /></Link>
                     </div>
@@ -55,7 +55,7 @@ const FlashSell = () => {
                     <div className="thumb">
                      <Link href="/pro/hello-product"
                         ><img
-                          src="/assets/img/product/trending_product02.png"
+                          src="/assets/client_assests/img/product/trending_product02.png"
                           alt=""
                       /></Link>
                     </div>
@@ -78,7 +78,7 @@ const FlashSell = () => {
                     <div className="thumb">
                      <Link href="/pro/hello-product"
                         ><img
-                          src="/assets/img/product/trending_product03.png"
+                          src="/assets/client_assests/img/product/trending_product03.png"
                           alt=""
                       /></Link>
                     </div>
@@ -99,7 +99,7 @@ const FlashSell = () => {
                     <div className="thumb">
                      <Link href="/pro/hello-product"
                         ><img
-                          src="/assets/img/product/trending_product04.png"
+                          src="/assets/client_assests/img/product/trending_product04.png"
                           alt=""
                       /></Link>
                     </div>
@@ -122,7 +122,7 @@ const FlashSell = () => {
             <div className="col-xl-9 col-lg-8 col-md-12">
               <div className="add-banner-thumb mb-55">
                <Link href="#"
-                  ><img src="/assets/img/images/add_banner_img02.jpg" alt=""
+                  ><img src="/assets/client_assests/img/images/add_banner_img02.jpg" alt=""
                 /></Link>
               </div>
               <div className="row">
@@ -148,7 +148,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product01.jpg"
+                            src="/assets/client_assests/img/product/flash_product01.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -175,7 +175,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product02.jpg"
+                            src="/assets/client_assests/img/product/flash_product02.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -202,7 +202,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product03.jpg"
+                            src="/assets/client_assests/img/product/flash_product03.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -227,7 +227,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product04.jpg"
+                            src="/assets/client_assests/img/product/flash_product04.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -252,7 +252,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product05.jpg"
+                            src="/assets/client_assests/img/product/flash_product05.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -279,7 +279,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product06.jpg"
+                            src="/assets/client_assests/img/product/flash_product06.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -306,7 +306,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product07.jpg"
+                            src="/assets/client_assests/img/product/flash_product07.jpg"
                             alt=""
                         /></Link>
                       </div>
@@ -331,7 +331,7 @@ const FlashSell = () => {
                       <div className="product-thumb">
                        <Link href="/pro/hello-product"
                           ><img
-                            src="/assets/img/product/flash_product08.jpg"
+                            src="/assets/client_assests/img/product/flash_product08.jpg"
                             alt=""
                         /></Link>
                       </div>
